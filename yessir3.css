@@ -1,0 +1,21 @@
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+  animation: fadeBackground 5s infinite alternate;
+}
+
+@keyframes fadeBackground {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+    background-image: url('dorime.png');
+  }
+  100% {
+    opacity: 1;
+    background-image: url('new-image.png');
+  }
+}
