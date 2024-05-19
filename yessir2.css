@@ -10,8 +10,7 @@
 .slide-1,
 .slide-2,
 .slide-3,
-.slide-4,
-.slide-5{
+.slide-4{
   position: absolute;
   top: 0;
   left: 0;
@@ -38,17 +37,15 @@
   animation-delay: 5s;
 }
 
-
-
-.slide-4 {
-  background-image: url('picture6.jpg');
+.slide-3 {
+  background-image: url('picture6.png');
   animation-name: fade;
   animation-duration: 15s;
   animation-delay: 10s;
 }
 
-.slide-5 {
-  background-image: url('picture7.jpg');
+.slide-4 {
+  background-image: url('picture7.png');
   animation-name: fade;
   animation-duration: 15s;
   animation-delay: 10s;
