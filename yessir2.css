@@ -48,7 +48,7 @@
   background-image: url('picture7.png');
   animation-name: fade;
   animation-duration: 15s;
-  animation-delay: 10s;
+  animation-delay: 15s;
 }
 
 @keyframes fade {
