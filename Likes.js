@@ -11,12 +11,12 @@ function removeItem(item) {
   }
 }
 
-addItem("wake up");
-addItem("take a bath");
-addItem("eat");
-addItem("clean your teeth");
-addItem("prepare important things");
-addItem("going to school");
+addItem("Eating");
+addItem("Dogs");
+addItem("Games");
+addItem("M1 Abraham Tank");
+addItem("Nato Standard Mag 9.22mm");
+addItem("Friends");
 
 function displayLikes() {
   console.log("Likes:");
@@ -25,7 +25,7 @@ function displayLikes() {
     }
   }
   
-removeItem("prepare important things");
-removeItem("clean your teeth");
+removeItem("Nato Standard Mag 9.22mm");
+removeItem("M1 Abraham Tank");
 
 displayLikes();
